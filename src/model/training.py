@@ -4,7 +4,7 @@ from pathlib import Path
 import torch
 from torch.autograd import Variable
 
-from model.regression import LinearRegressionModel
+from regression import LinearRegressionModel
 
 # Declaring variables
 x_data = Variable(torch.Tensor([[1.0], [2.0], [3.0], [4.0], [5.0]]))
